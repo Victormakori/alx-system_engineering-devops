@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+# Script to display the content of to the /etc/passwd file
+
+file_name="/etc/passwd"
+IFS=':'
+
+if [ -f "$file_name" ]; then
+  
+  while read -r line; do
+    IFS=':' read -r -a field <<< "$line"
+
+    echo "${field[0]}:${field[2]}:${field[5]}"
+  done < "$file_name"
+fi
