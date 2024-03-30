@@ -1,0 +1,21 @@
+https://imgur.com/FZYPd18
+
+
+Data Center Overview:
+Holds physical or virtual servers.
+Server Functionality:
+Runs the operating system and programs.
+Web Server:
+Serves webpages in static or dynamic form.
+Database:
+Stores application data, fetched from the codebase upon request.
+DNS (Domain Name System):
+Maps domain names (e.g., www.foobar.com) to IP addresses (e.g., 8.8.8.8) using A records.
+Communication Protocol:
+Transmission Control Protocol/Internet Protocol (TCP/IP) used for communication.
+Single Point of Failure (SPOF):
+Server serves as a single point of failure, lacking redundancy.
+Issues:
+Inability to handle traffic exceeding server capacity.
+Requires restarting when new code is sent, causing downtime.
+
